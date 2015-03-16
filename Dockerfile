@@ -1,7 +1,5 @@
 FROM ubuntu:14.04
 
-MAINTAINER "fdb-boston@foundationdb.com"
-
 RUN apt-get update # && apt-get -y upgrade
 RUN apt-get -y install python-software-properties python-setuptools
 
